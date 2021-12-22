@@ -3,6 +3,7 @@ class CreatePlans < ActiveRecord::Migration[6.0]
     create_table :plans do |t|
       t.string :plan
       t.date :date
+      t.wday :wday
       t.timestamps
     end
   end
